@@ -1,0 +1,23 @@
+/* load card */
+.cardContainer {
+  width: 350px;
+  height: 475px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(000, 000, 000, 0.2);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  background: linear-gradient(100deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  background-size: 200% 100%;
+  animation: shine 2s linear infinite;
+}
+
+/* animation for the load card */
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}

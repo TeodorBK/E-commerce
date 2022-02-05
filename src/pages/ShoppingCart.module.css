@@ -1,0 +1,27 @@
+/* title */
+.productTitle {
+  margin: 20px;
+}
+
+/* buy all container */
+.buyBtnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+/* buy button */
+.buyBtn {
+  background-color: var(--main);
+  color: var(--clr_w);
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  margin-bottom: 20px;
+}

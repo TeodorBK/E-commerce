@@ -1,0 +1,14 @@
+/* css for all elements. setting font for the whole application and margin and padding to 0 for no unnecessary spacing */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* storing often used colors in a root so one can use it in all files */
+:root {
+  --clr_w: rgb(255, 255, 255);
+  --clr_b: rgb(000, 000, 000);
+  --main: rgb(89, 0, 255);
+  --main_dark: rgb(67, 0, 192);
+}

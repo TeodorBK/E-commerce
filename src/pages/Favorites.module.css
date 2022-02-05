@@ -1,0 +1,25 @@
+/* title */
+.productTitle {
+  margin: 20px;
+}
+
+/* buy all button container */
+.buyAllBtnContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* buy all button */
+.buyAllBtn {
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: var(--main);
+  color: var(--clr_w);
+  text-decoration: none;
+}

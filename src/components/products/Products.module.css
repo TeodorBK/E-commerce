@@ -1,0 +1,8 @@
+/* the product cards container */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
+  grid-gap: 32px;
+  padding: 0 100px 0 100px;
+  justify-content: center;
+}

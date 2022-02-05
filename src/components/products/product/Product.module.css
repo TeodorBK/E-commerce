@@ -1,0 +1,90 @@
+/* product card */
+.cardContainer {
+  width: 350px;
+  height: 475px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(000, 000, 000, 0.2);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+/* icon container */
+.allIconContainer {
+  width: 100%;
+}
+
+.iconContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* not favorite icon */
+.notFavIcon {
+  margin: 10px;
+  font-size: 1.4rem;
+  color: rgb(255, 000, 000);
+}
+
+.notFavIcon:hover {
+  cursor: pointer;
+}
+
+/* favorite icon */
+.favIcon {
+  margin: 10px;
+  font-size: 1.4rem;
+  color: rgb(255, 000, 000);
+}
+
+.favIcon:hover {
+  cursor: pointer;
+}
+
+/* shoppingcart icon */
+.cartIcon {
+  margin: 10px;
+  font-size: 1.3rem;
+  color: rgb(000, 000, 000, 1);
+  transition: 0.5s;
+}
+
+.cartIcon:hover {
+  cursor: pointer;
+}
+
+/* product image */
+.productImage {
+  margin-top: -10px;
+  width: 100%;
+  height: 230px;
+}
+
+/* the image in product image */
+.productImage img {
+  height: 100%;
+  width: auto;
+}
+
+/* buy button */
+.buyBtn {
+  margin-top: auto;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: var(--main);
+  color: var(--clr_w);
+  padding: 1rem 0;
+  border-radius: 0 0 1rem 1rem;
+  transition: 0.4s;
+}
+
+.buyBtn:hover {
+  cursor: pointer;
+  background-color: var(--main_dark);
+}

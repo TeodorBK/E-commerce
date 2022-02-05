@@ -1,0 +1,226 @@
+/* container around all */
+.productTable {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* container to center all */
+.centerTable {
+  width: 60%;
+  margin-top: 10px;
+}
+
+/* the table */
+.table {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid var(--clr_b);
+}
+
+/* the image column */
+.tableImage {
+  width: 20%;
+  height: 100%;
+  border-right: 2px solid var(--clr_b);
+}
+
+/* the title column */
+.tableTitle {
+  width: 40%;
+  height: 100%;
+  border-right: 2px solid var(--clr_b);
+}
+
+/* the amount input column */
+.tableAmount {
+  width: 20%;
+  height: 100%;
+  border-right: 2px solid var(--clr_b);
+}
+
+/* the price column */
+.tablePrice {
+  width: 10%;
+  height: 100%;
+  border-right: 2px solid var(--clr_b);
+}
+
+/* the delete column */
+.tableEdit {
+  width: 10%;
+  height: 100%;
+}
+
+/* container for all the columns to center the text and image */
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* the image box size */
+.productImage {
+  height: 100%;
+  width: auto;
+}
+
+/* the amount input box size */
+.amountBox {
+  width: 90%;
+}
+
+/* the amount input size */
+.amount {
+  width: 90%;
+}
+
+/* the delete button */
+.removeProductBtn {
+  background-color: rgba(000, 000, 000, 0);
+  border: 0;
+  font-size: 1.3rem;
+}
+
+.removeProductBtn:hover {
+  cursor: pointer;
+}
+
+.removeProductBtn:active {
+  color: red;
+}
+
+/* the price box */
+.totalContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* total price */
+.totalPriceContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 60%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* the buy button container */
+.buyBtnContainer {
+  margin-top: 50px;
+}
+
+/* buy button */
+.buyBtn {
+  font-size: 1.2rem;
+  background-color: var(--main);
+  color: var(--clr_w);
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.buyBtn:hover {
+  cursor: pointer;
+  background-color: var(--main_dark);
+}
+
+/* overlay for when the user click buy */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(000, 000, 000, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* mail box */
+.mailBox {
+  width: 60%;
+  height: 50%;
+  background-color: var(--clr_w);
+  border-radius: 1rem;
+}
+
+.mainInputContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.formCenter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* form for the buy process */
+.formBox {
+  width: 70%;
+  height: 100%;
+}
+
+.mailForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+
+.mailForm > input {
+  width: 50%;
+  height: 2rem;
+  margin-bottom: 20px;
+}
+
+/* buy and send the product button */
+.buySendBtn {
+  width: 20%;
+  padding: 0.5rem 1rem;
+  background-color: var(--main);
+  border: 3px solid var(--main);
+  border-radius: 0.5rem;
+  color: var(--clr_w);
+}
+
+.buySendBtn:hover {
+  cursor: pointer;
+}
+
+/* cancel buying product button */
+.buySendCancelBtn {
+  width: 20%;
+  margin-left: 70px;
+  padding: 0.5rem 1rem;
+  background-color: rgba(000, 000, 000, 0);
+  border: 3px solid var(--main);
+  border-radius: 0.5rem;
+}
+
+.buySendCancelBtn:hover {
+  cursor: pointer;
+}

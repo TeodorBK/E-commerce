@@ -1,0 +1,9 @@
+/* the container for all the load cards */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
+  grid-gap: 32px;
+  padding: 0 100px 0 100px;
+  justify-content: center;
+  overflow-y: hidden;
+}
